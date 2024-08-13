@@ -11,7 +11,7 @@ function AllPosts() {
                 setPosts(posts.documents);
             }
         });
-    }, []); // Empty dependency array means this effect runs only once
+    }, []); 
 
     return (
         <div className='w-full py-8'>
